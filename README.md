@@ -10,7 +10,7 @@ Clone this repo and run `npm i` and then `npm start`
 
 * In the `Router.js` file we can see a list of all our routes and paths. Write a `ProtectedRoute` function under the appropriate comment.
 
-* Write a `checkAuth` function under the approprate comment. Use the `cookie` module to parse the browser cookies and check the `loggedIn` cookie. If it has a value, return `true` otherwise return `false`. 
+* Write a `checkAuth` function under the appropriate comment. Use the `cookie` module to parse the browser cookies and check the `loggedIn` cookie. If it has a value, return `true` otherwise return `false`. 
 
 * Replace all uses of the `Route` component (inside of Switch) with `ProtectedRoute` EXCEPT for the "/login" route. We always want to be able to access that so leave it alone.
 
